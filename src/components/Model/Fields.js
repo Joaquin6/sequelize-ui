@@ -50,6 +50,7 @@ const Field = ({
         <Form.Button
           icon='trash'
           size='tiny'
+          onClick={() => removeField(field.id)}
           circular
         />
       </Form.Group>
